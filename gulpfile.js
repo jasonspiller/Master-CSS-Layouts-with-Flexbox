@@ -45,7 +45,7 @@ gulp.task('browserSync', function() {
   browserSync.init({
     server: {
       baseDir: 'dist/',
-      index: 'index.htm'
+      index: 'index.html'
     }
   })
 });
